@@ -8,13 +8,12 @@ import { HttpModule } from '@angular/http';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
-import { Demo } from './../pages/demo/demo';
+
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
-    Demo
   ],
   imports: [
     BrowserModule,
@@ -25,7 +24,6 @@ import { Demo } from './../pages/demo/demo';
   entryComponents: [
     MyApp,
     HomePage,
-    Demo
   ],
   providers: [
     StatusBar,
