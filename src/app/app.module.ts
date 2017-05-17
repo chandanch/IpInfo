@@ -1,3 +1,4 @@
+
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
@@ -7,11 +8,13 @@ import { HttpModule } from '@angular/http';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
+import { Demo } from './../pages/demo/demo';
 
 @NgModule({
   declarations: [
     MyApp,
-    HomePage
+    HomePage,
+    Demo
   ],
   imports: [
     BrowserModule,
@@ -21,7 +24,8 @@ import { HomePage } from '../pages/home/home';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage
+    HomePage,
+    Demo
   ],
   providers: [
     StatusBar,
